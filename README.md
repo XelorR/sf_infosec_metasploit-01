@@ -26,3 +26,5 @@ Checking that Kali can see w2008 server
 ## Step three, nmap
 
 ![](./screenshots/02_nmap.png)
+
+Open 445 port found!
