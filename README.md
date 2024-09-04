@@ -9,11 +9,11 @@ Configuring network for virtualbox machines
 vboxmanage natnetwork add --netname mynet --network "192.168.15.0/24" --enable --dhcp on
 
 # kali
-$VM_NAME='kali-iso'
+VM_NAME='kali-iso'
 vboxmanage modifyvm $VM_NAME --nic1 natnetwork --nat-network1 mynet
 
 # and the same for server
-$VM_NAME='w2008'
+VM_NAME='w2008'
 vboxmanage modifyvm $VM_NAME --nic1 natnetwork --nat-network1 mynet
 ```
 
