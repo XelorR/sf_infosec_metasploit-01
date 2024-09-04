@@ -21,3 +21,8 @@ Checking that Kali can see w2008 server
 ![](./screenshots/01_vms-are-in-the-same-network-and-see-each-other.png)
 
 ## Step two, disabling antivirus (as required by [task](the_task.md))
+
+
+## Step three, nmap
+
+![](./screenshots/02_nmap.png)
