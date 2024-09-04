@@ -22,9 +22,18 @@ Checking that Kali can see w2008 server
 
 ## Step two, disabling antivirus (as required by [task](the_task.md))
 
+- [x] no need actually, no antivirus detected on VM
 
 ## Step three, nmap
 
 ![](./screenshots/02_nmap.png)
 
 Open 445 port found!
+
+## Step four, exploitation
+
+![](./screenshots/03_metasploit-searching-modules.png)
+
+![](./screenshots/04_meterpreter-session-opened.png)
+
+![](./screenshots/05_meterpreter-remote-execution.png)
